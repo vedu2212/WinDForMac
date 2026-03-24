@@ -34,10 +34,25 @@ The `Option + D` hotkey will now work globally.
 To have the hotkey available automatically when you turn on your Mac:
 1. Open System Settings > General > Login Items.
 2. Under "Open at Login", click the + button.
-3. Select `WinDForMac` from your Applications folder.//
+3. Select `WinDForMac` from your Applications folder.
+
+## ⚠️ Troubleshooting: "App Cannot Be Opened"
+Since this app is from an independent developer, macOS might block it initially with a "Malware" or "Unidentified Developer" warning. This is normal for apps not downloaded from the App Store.
+
+### How to Fix (Gatekeeper Bypass):
+1. Right-Click Method (Fastest): Locate `WinDForMac.app` in your Applications folder. Right-click (or Control-click) the icon and select Open. In the popup that appears, click the Open button. You only need to do this once.
+2. System Settings Method: If the above doesn't work, go to System Settings > Privacy & Security. Scroll down to the Security section where you see a message about `WinDForMac` being blocked. Click Open Anyway and enter your password.
+
+### Shortcut Not Working?
+If the app is running in your Menu Bar but the hotkey isn't minimizing windows:
+1. Go to System Settings > Privacy & Security > Accessibility.
+2. If `WinDForMac` is already there, click the minus (-) button to remove it completely.
+3. Click the plus (+) button or drag the app into the list and toggle it N.
+4. Important: Quit the app from the Menu Bar and reopen it for the permissions to take effect.
+
+//
 //  README.md
 //  WinDForMac
 //
 //  Created by Vedant Vyas on 3/23/26.
 //
-

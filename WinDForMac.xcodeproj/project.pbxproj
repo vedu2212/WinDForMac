@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A8D890DE2F72174D00F35B29 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A8D890DD2F72174300F35B29 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A8D890CC2F71E08900F35B29 /* WinDForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinDForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D890DD2F72174300F35B29 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		A8D890C32F71E08900F35B29 = {
 			isa = PBXGroup;
 			children = (
+				A8D890DD2F72174300F35B29 /* README.md */,
 				A8D890CE2F71E08900F35B29 /* WinDForMac */,
 				A8D890CD2F71E08900F35B29 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D890DE2F72174D00F35B29 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
